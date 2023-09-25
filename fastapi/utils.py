@@ -1,4 +1,3 @@
-# TESTING
 import re
 import warnings
 from dataclasses import is_dataclass
