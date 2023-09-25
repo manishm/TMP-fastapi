@@ -3,7 +3,6 @@ from typing import Any, Dict, Optional, Sequence, Type
 from pydantic import BaseModel, create_model
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from starlette.exceptions import WebSocketException as WebSocketException  # noqa: F401
-#TEST
 class HTTPException(StarletteHTTPException):
     def __init__(
         self,
