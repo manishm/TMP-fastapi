@@ -12,3 +12,4 @@ jieba==0.42.1
 pillow==9.5.0
 # For image processing by Material for MkDocs
 cairosvg==2.7.0
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
